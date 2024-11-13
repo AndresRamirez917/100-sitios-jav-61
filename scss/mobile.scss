@@ -23,8 +23,19 @@
 }
 //job
 #job {
-    .job-row {
-        display: block;
+    .container {
+        .job-row {
+            display: block;
+            .box {
+                img {
+                    width: 50%;
+                    height: 50vh;
+                }
+                p {
+                    margin-bottom: 4rem;
+                }
+            }
+        }
     }
 }
 

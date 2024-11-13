@@ -105,11 +105,11 @@ img {
 
 //job
 #job {
-    //.container {
+    .container {
         margin-top: 10rem;
         text-align: center;
         .job-row {
-            gap: 100px;
+            gap: 200px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -125,7 +125,7 @@ img {
             }
            
         }
-    //}
+    }
 }
 
 //about

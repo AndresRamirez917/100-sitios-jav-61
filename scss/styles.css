@@ -100,24 +100,24 @@ img {
   font-weight: 300;
 }
 
-#job {
+#job .container {
   margin-top: 10rem;
   text-align: center;
 }
-#job .job-row {
-  gap: 100px;
+#job .container .job-row {
+  gap: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#job .job-row .box {
+#job .container .job-row .box {
   margin-bottom: 3rem;
 }
-#job .job-row .box img {
+#job .container .job-row .box img {
   width: 300px;
   height: 120vh;
 }
-#job .job-row .box .box-text {
+#job .container .job-row .box .box-text {
   text-align: center;
 }
 

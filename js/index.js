@@ -14,10 +14,11 @@ async function getData() {
                 const box = document.createRange().createContextualFragment(`
                     
                 <div class="box">
-                    <img src="${productsArr[randIndex][5][1]}" alt="">
+                <a href="${productsArr[randIndex][5][1]}"><img src="${productsArr[randIndex][5][1]}" alt=""></a>
+                    
                     <div class="box-text">
-                        <h3>Ford</h3>
-                        <p>A creative and built project</p>
+                        <h3>Price ${productsArr[randIndex][2][1]}</h3>
+                        <p>Category ${productsArr[randIndex][4][1]}</p>
                     </div>
                 </div>
 
