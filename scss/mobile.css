@@ -1,0 +1,50 @@
+#mainheader .navbar .logo {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar ul {
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader .navbar ul li {
+  display: inline;
+}
+
+#showcase .showcase-text {
+  padding-bottom: 10px;
+}
+
+#job .job-row {
+  display: block;
+}
+
+#about {
+  margin: 0;
+  margin-top: 3rem;
+}
+#about .about-row {
+  display: block;
+}
+#about .about-row h3 {
+  text-align: center;
+}
+#about .about-row p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+#about .about-row img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#contact .container form .form-group {
+  flex-direction: row;
+}
+
+.flex {
+  flex-direction: column;
+}
+
+.flex-box {
+  flex: 1;
+}/*# sourceMappingURL=mobile.css.map */

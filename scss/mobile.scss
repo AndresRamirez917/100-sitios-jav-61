@@ -1,0 +1,71 @@
+//mainheader 
+#mainheader {
+    .navbar {
+        .logo {
+            display: block;
+            text-align: center;
+        }
+        ul {
+           
+            text-align: center;
+            margin: 0 auto;
+            li {
+                display: inline;
+            }
+        }
+    }
+}
+//showcase
+#showcase {
+    .showcase-text {
+        padding-bottom: 10px;
+    }
+}
+//job
+#job {
+    .job-row {
+        display: block;
+    }
+}
+
+//about
+#about {
+    margin: 0;
+    margin-top: 3rem;
+    .about-row {
+        display: block;
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+        img {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//contact
+#contact {
+    .container {
+        form {
+            .form-group {
+          flex-direction: row;
+            }
+        }
+    }
+   
+   
+}
+
+.flex {
+    flex-direction: column;
+}
+
+.flex-box {
+    flex: 1;
+}
+
