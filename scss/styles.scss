@@ -105,21 +105,27 @@ img {
 
 //job
 #job {
-    .container {
+    //.container {
         margin-top: 10rem;
         text-align: center;
         .job-row {
             gap: 100px;
- 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             .box {
-                margin-bottom: 3rem;
-                .box.text {
+                img {
+                    width: 300px;
+                    height: 120vh;
+                }
+                .box-text {
                     text-align: center;
                 }
+                margin-bottom: 3rem;
             }
            
         }
-    }
+    //}
 }
 
 //about
