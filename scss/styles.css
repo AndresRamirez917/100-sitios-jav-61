@@ -165,10 +165,16 @@ form .form-control {
   color: #000;
 }
 form button {
+  border: none;
   width: 100%;
   padding: 10px 20px;
   background: #5a0c0c;
   color: #fff;
+  cursor: pointer;
+}
+form button:hover {
+  background: rgba(90, 12, 12, 0.9215686275);
+  color: #000;
 }
 
 #footer {

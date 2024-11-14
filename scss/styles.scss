@@ -182,10 +182,16 @@ form {
         color: #000;
     }
     button {
+        border: none;
         width: 100%;
         padding: 10px 20px;
       background: #5a0c0c;
       color: #fff;
+      cursor: pointer;
+      &:hover {
+        background: #5a0c0ceb;
+        color: #000;
+      }
     }
 }
 
