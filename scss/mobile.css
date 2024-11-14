@@ -10,7 +10,17 @@
   display: inline;
 }
 
-#showcase .showcase-text {
+#showcase {
+  margin-left: -430px;
+}
+#showcase .container {
+  margin-left: 300px;
+}
+#showcase .container .main-width {
+  width: 65%;
+  font-size: small;
+}
+#showcase .container .main-width .showcase-text {
   padding-bottom: 10px;
 }
 

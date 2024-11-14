@@ -17,9 +17,18 @@
 }
 //showcase
 #showcase {
-    .showcase-text {
-        padding-bottom: 10px;
+margin-left: -430px;
+.container {
+    margin-left: 300px;
+    .main-width {
+        //background: rgba(128, 128, 128, 0.415);
+        width: 65%;
+        font-size: small;
+        .showcase-text {
+            padding-bottom: 10px;
+        }
     }
+}
 }
 //job
 #job {
